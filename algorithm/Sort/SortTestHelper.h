@@ -1,5 +1,5 @@
 //
-// Created by moon 2021/6/24.
+// Created by mo on 2021/6/24.
 //
 
 #ifndef SORT_SORTTESTHELPER_H
@@ -97,11 +97,14 @@ namespace SortTestHelper
         clock_t  startTime=clock();
         sort(array,n);
         clock_t endTime=clock();
+//        cout<<endTime-startTime<<endl;
+//        cout<<CLOCKS_PER_SEC<<endl;
         cout << sortName << " " <<double (endTime-startTime)/CLOCKS_PER_SEC <<"s" <<endl;
         //CLOCKS_PER_SEC 每秒钟的时钟周期数
 
         assert(isSorted(array,n));
-        cout<<isSorted(array,n)<<endl;
+//        cout<<isSorted(array,n)<<endl;
+        cout<<"######################"<<endl;
         return ;
 
     }

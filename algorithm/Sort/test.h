@@ -9,6 +9,7 @@
 #include "SelectionSort.h"
 #include "InsertionSort.h"
 #include "MergeSort.h"
+#include "QuickSort.h"
 void testBubbleSort()
 {
     int n=15;
@@ -54,6 +55,50 @@ void testMergeSort()
     SortTestHelper::printArray(array,n);
     delete [] array;
     return;
+}
+void testQuickSort3ways()
+{
+    int n=15;
+    int * array= SortTestHelper::generateRandomArray(n,0,n);
+    cout<<"QuickSort3ways"<<endl;
+    SortTestHelper::printArray(array,n);
+    QuickSort3ways(array,n);
+    SortTestHelper::printArray(array,n);
+    delete [] array;
+    return;
+}
+void testQuickSort()
+{
+    int n=100000;
+    cout<<"Test for random array ,size= "<< n <<",random range [0," << n<<"]"<<endl;
+    int *array1=SortTestHelper::generateRandomArray(n,0,n);
+    int *array2=SortTestHelper::generateRandomArray(n,0,n);
+    int *array3=SortTestHelper::generateRandomArray(n,0,n);
+    cout<<"QuickSort"<<endl;
+    SortTestHelper::testSort("Quick Sort",QuickSort,array1,n);
+    cout<<"QuickSort2"<<endl;
+    SortTestHelper::testSort("Quick Sort2",QuickSort2,array2,n);
+    cout<<"QuickSort3"<<endl;
+    SortTestHelper::testSort("Quick Sort3",QuickSort3ways,array3,n);
+
+    delete [] array1;
+    delete [] array2;
+    delete [] array3;
+
+    cout<<"Test for random array ,size= "<< n <<",random range [0," << 10<<"]"<<endl;
+    int *array4=SortTestHelper::generateRandomArray(n,0,10);
+    int *array5=SortTestHelper::generateRandomArray(n,0,10);
+    int *array6=SortTestHelper::generateRandomArray(n,0,10);
+    cout<<"QuickSort"<<endl;
+    SortTestHelper::testSort("Quick Sort",QuickSort,array4,n);
+    cout<<"QuickSort2"<<endl;
+    SortTestHelper::testSort("Quick Sort2",QuickSort2,array5,n);
+    cout<<"QuickSort3ways"<<endl;
+    SortTestHelper::testSort("Quick Sort3",QuickSort3ways,array6,n);
+    delete [] array4;
+    delete [] array5;
+    delete [] array6;
+
 }
 
 
