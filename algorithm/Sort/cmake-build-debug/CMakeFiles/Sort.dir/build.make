@@ -61,10 +61,10 @@ RM = "D:\Program Files(x86)\CLion\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\algorithm\Sort
+CMAKE_SOURCE_DIR = E:\AlgorithmAndDataStructure\algorithm\Sort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\algorithm\Sort\cmake-build-debug
+CMAKE_BINARY_DIR = E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Sort.dir/depend.make
@@ -77,45 +77,30 @@ include CMakeFiles/Sort.dir/flags.make
 
 CMakeFiles/Sort.dir/main.cpp.obj: CMakeFiles/Sort.dir/flags.make
 CMakeFiles/Sort.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\algorithm\Sort\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sort.dir/main.cpp.obj"
-	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\main.cpp.obj -c E:\algorithm\Sort\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Sort.dir/main.cpp.obj"
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\main.cpp.obj -c E:\AlgorithmAndDataStructure\algorithm\Sort\main.cpp
 
 CMakeFiles/Sort.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sort.dir/main.cpp.i"
-	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\algorithm\Sort\main.cpp > CMakeFiles\Sort.dir\main.cpp.i
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\AlgorithmAndDataStructure\algorithm\Sort\main.cpp > CMakeFiles\Sort.dir\main.cpp.i
 
 CMakeFiles/Sort.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sort.dir/main.cpp.s"
-	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\algorithm\Sort\main.cpp -o CMakeFiles\Sort.dir\main.cpp.s
-
-CMakeFiles/Sort.dir/test.cpp.obj: CMakeFiles/Sort.dir/flags.make
-CMakeFiles/Sort.dir/test.cpp.obj: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\algorithm\Sort\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sort.dir/test.cpp.obj"
-	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Sort.dir\test.cpp.obj -c E:\algorithm\Sort\test.cpp
-
-CMakeFiles/Sort.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sort.dir/test.cpp.i"
-	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\algorithm\Sort\test.cpp > CMakeFiles\Sort.dir\test.cpp.i
-
-CMakeFiles/Sort.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sort.dir/test.cpp.s"
-	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\algorithm\Sort\test.cpp -o CMakeFiles\Sort.dir\test.cpp.s
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\AlgorithmAndDataStructure\algorithm\Sort\main.cpp -o CMakeFiles\Sort.dir\main.cpp.s
 
 # Object files for target Sort
 Sort_OBJECTS = \
-"CMakeFiles/Sort.dir/main.cpp.obj" \
-"CMakeFiles/Sort.dir/test.cpp.obj"
+"CMakeFiles/Sort.dir/main.cpp.obj"
 
 # External object files for target Sort
 Sort_EXTERNAL_OBJECTS =
 
 Sort.exe: CMakeFiles/Sort.dir/main.cpp.obj
-Sort.exe: CMakeFiles/Sort.dir/test.cpp.obj
 Sort.exe: CMakeFiles/Sort.dir/build.make
 Sort.exe: CMakeFiles/Sort.dir/linklibs.rsp
 Sort.exe: CMakeFiles/Sort.dir/objects1.rsp
 Sort.exe: CMakeFiles/Sort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\algorithm\Sort\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Sort.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Sort.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Sort.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +113,6 @@ CMakeFiles/Sort.dir/clean:
 .PHONY : CMakeFiles/Sort.dir/clean
 
 CMakeFiles/Sort.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\algorithm\Sort E:\algorithm\Sort E:\algorithm\Sort\cmake-build-debug E:\algorithm\Sort\cmake-build-debug E:\algorithm\Sort\cmake-build-debug\CMakeFiles\Sort.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\AlgorithmAndDataStructure\algorithm\Sort E:\AlgorithmAndDataStructure\algorithm\Sort E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug\CMakeFiles\Sort.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Sort.dir/depend
 

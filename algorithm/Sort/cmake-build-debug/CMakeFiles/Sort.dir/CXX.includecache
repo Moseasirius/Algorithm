@@ -6,21 +6,23 @@
 
 #IncludeRegexTransform: 
 
-E:/algorithm/Sort/BubbleSort.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/BubbleSort.h
 algorithm
 -
 
-E:/algorithm/Sort/InsertionSort.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/InsertionSort.h
 algorithm
 -
 
-E:/algorithm/Sort/MergeSort.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/MergeSort.h
 iostream
 -
 
-E:/algorithm/Sort/SelectionSort.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/QuickSort.h
 
-E:/algorithm/Sort/SortTestHelper.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/SelectionSort.h
+
+E:/AlgorithmAndDataStructure/algorithm/Sort/SortTestHelper.h
 iostream
 -
 algorithm
@@ -30,23 +32,25 @@ ctime
 assert.h
 -
 
-E:/algorithm/Sort/main.cpp
+E:/AlgorithmAndDataStructure/algorithm/Sort/main.cpp
 iostream
 -
 test.h
-E:/algorithm/Sort/test.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/test.h
 assert.h
 -
 
-E:/algorithm/Sort/test.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/test.h
 SortTestHelper.h
-E:/algorithm/Sort/SortTestHelper.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/SortTestHelper.h
 BubbleSort.h
-E:/algorithm/Sort/BubbleSort.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/BubbleSort.h
 SelectionSort.h
-E:/algorithm/Sort/SelectionSort.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/SelectionSort.h
 InsertionSort.h
-E:/algorithm/Sort/InsertionSort.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/InsertionSort.h
 MergeSort.h
-E:/algorithm/Sort/MergeSort.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/MergeSort.h
+QuickSort.h
+E:/AlgorithmAndDataStructure/algorithm/Sort/QuickSort.h
 

@@ -66,10 +66,10 @@ RM = "D:\Program Files(x86)\CLion\bin\cmake\win\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\algorithm\Sort
+CMAKE_SOURCE_DIR = E:\AlgorithmAndDataStructure\algorithm\Sort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\algorithm\Sort\cmake-build-debug
+CMAKE_BINARY_DIR = E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,9 +98,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\algorithm\Sort\cmake-build-debug\CMakeFiles E:\algorithm\Sort\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug\CMakeFiles E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\algorithm\Sort\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\AlgorithmAndDataStructure\algorithm\Sort\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -168,33 +168,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test.obj: test.cpp.obj
-
-.PHONY : test.obj
-
-# target to build an object file
-test.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/test.cpp.obj
-.PHONY : test.cpp.obj
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sort.dir\build.make CMakeFiles/Sort.dir/test.cpp.s
-.PHONY : test.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -207,9 +180,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... test.obj
-	@echo ... test.i
-	@echo ... test.s
 .PHONY : help
 
 
