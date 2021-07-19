@@ -3,6 +3,7 @@
 
 CMakeFiles/Sort.dir/main.cpp.obj
  E:/AlgorithmAndDataStructure/algorithm/Sort/BubbleSort.h
+ E:/AlgorithmAndDataStructure/algorithm/Sort/HeapSort.h
  E:/AlgorithmAndDataStructure/algorithm/Sort/InsertionSort.h
  E:/AlgorithmAndDataStructure/algorithm/Sort/MergeSort.h
  E:/AlgorithmAndDataStructure/algorithm/Sort/QuickSort.h
