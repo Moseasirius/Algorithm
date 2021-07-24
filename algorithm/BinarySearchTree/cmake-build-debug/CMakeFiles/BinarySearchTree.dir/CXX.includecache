@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/main.cpp
+iostream
+-
+cassert
+-
+ctime
+-
+

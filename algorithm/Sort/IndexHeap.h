@@ -100,6 +100,7 @@ public:
     }
     // 向最大索引堆中插入一个新的元素, 新元素的索引为i, 元素为item
     // 传入的i对用户而言,是从0索引的
+
     void insert(int i,Item item)//内部1从开始，外部从0开始，用户看不到
     {
         assert(count+1<=capacity);
@@ -150,8 +151,24 @@ public:
         shiftDown(1);
         return ret;
     }
+    //获取最大索引堆中堆顶元素
+    Item getMax()
+    {
+        assert(count>0);
+        return data[indexes[1]];
+
+    }
+    //获取最大索引堆中堆顶元素元素的索引
+    int getMaxIndex()
+    {
+        assert(count>0);
+        return indexes[1]-1;
+    }
+
+
     bool contain(int i)
     {
+        assert(i+1>=1&&i+1<=capacity);
         return reverse[i+1]!=0;
     }
 
