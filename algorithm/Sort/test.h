@@ -11,6 +11,7 @@
 #include "MergeSort.h"
 #include "QuickSort.h"
 #include "HeapSort.h"
+#include "IndexHeap.h"
 
 
 void testBubbleSort()
@@ -227,5 +228,10 @@ void test()
 
     cout<<endl;
 }
+void testIndexesHeap()
+{
+
+}
+
 
 #endif //SORT_TEST_H

@@ -86,6 +86,9 @@
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/Sort/HeapSort.h">
 			<Option target="Sort"/>
 		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/Sort/IndexHeap.h">
+			<Option target="Sort"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/Sort/InsertionSort.h">
 			<Option target="Sort"/>
 		</Unit>
