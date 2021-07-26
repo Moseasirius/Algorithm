@@ -80,7 +80,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BST.h">
+			<Option target="BinarySearchTree"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BinarySearch.h">
+			<Option target="BinarySearchTree"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/FileOps.h">
+			<Option target="BinarySearchTree"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/SequenceST.h">
+			<Option target="BinarySearchTree"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/main.cpp">
+			<Option target="BinarySearchTree"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/test.h">
 			<Option target="BinarySearchTree"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/CMakeLists.txt">

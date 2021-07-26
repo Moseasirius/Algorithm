@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BinarySearch.h
+
 E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/main.cpp
+iostream
+-
+test.h
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/test.h
+
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/test.h
 iostream
 -
 cassert
 -
+BinarySearch.h
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BinarySearch.h
 ctime
 -
 
