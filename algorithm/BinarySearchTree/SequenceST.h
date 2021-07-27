@@ -67,7 +67,7 @@ public:
             node=node->next;
         }
         // 若顺序表中没有同样大小的key，则创建新节点，将新节点直接插在表头
-        Node *newNode = Node(key,value);
+        Node* newNode = new Node(key,value);
         newNode->next = head;
         head = newNode;
         count++;

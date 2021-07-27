@@ -4,7 +4,9 @@ using namespace std;
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    testBinarySearch();
-
+//    testBinarySearch();
+//    testBSTvsSequenceST();
+//    testOrder();
+testOrderAndLevel();
     return 0;
 }

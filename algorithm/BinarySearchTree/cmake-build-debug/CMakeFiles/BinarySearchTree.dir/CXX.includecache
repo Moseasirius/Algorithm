@@ -6,7 +6,25 @@
 
 #IncludeRegexTransform: 
 
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BST.h
+queue
+-
+cassert
+-
+
 E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BinarySearch.h
+
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/FileOps.h
+iostream
+-
+string
+-
+vector
+-
+fstream
+-
+
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/SequenceST.h
 
 E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/main.cpp
 iostream
@@ -19,8 +37,18 @@ iostream
 -
 cassert
 -
-BinarySearch.h
-E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BinarySearch.h
 ctime
 -
+vector
+-
+fstream
+-
+BinarySearch.h
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BinarySearch.h
+SequenceST.h
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/SequenceST.h
+FileOps.h
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/FileOps.h
+BST.h
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BST.h
 

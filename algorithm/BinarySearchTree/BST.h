@@ -4,6 +4,8 @@
 
 #ifndef BINARYSEARCHTREE_BST_H
 #define BINARYSEARCHTREE_BST_H
+#include <queue>
+#include <cassert>
 
 //本质现实的是一个查找表
 template<typename Key,typename Value>
@@ -19,7 +21,7 @@ private:
 
         Node(Key key,Value value){
             this->key=key;
-            this-value=value;
+            this->value=value;
             this->left= this->right=NULL;
         }
     };
@@ -34,6 +36,8 @@ public:
     //析构函数
     ~BST(){
         //TODO:~BST()
+        destroy(root);
+
     }
     // 返回二分搜索树的节点个数
     int size(){
@@ -56,6 +60,60 @@ public:
     Value* search(Key key){
         return search(root,key);
     }
+    //二分搜索树的前序遍历
+    void preOrder(){
+        preOrder(root);
+    }
+    //二分搜索树的中序遍历
+    void inOrder(){
+        inOrder(root);
+    }
+    //二分搜索树的后序遍历
+    void postOrder(){
+        postOrder(root);
+    }
+    // 二分搜索树的层序遍历
+    void levelOrder() {
+        queue < Node * > q;
+        q.push(root);
+        while (!q.empty()) {
+            Node *node = q.front();
+            q.pop();
+            cout << node->key << endl;
+            if (node->left) {
+                q.push(node->left);
+            }
+            if (node->right) {
+                q.push(node->right);
+            }
+        }
+    }
+    // 寻找二分搜索树的最小的键值
+    Key minimum(){
+        assert(count != 0);
+        Node* minNode = minimum(root);
+        return minNode->key;
+    }
+    // 寻找二分搜索树的最大的键值
+    Key maximum(){
+        assert(count != 0);
+        Node* maxNode = maximum(root);
+        return maxNode->key;
+    }
+    // 从二分搜索树中删除最小值所在节点
+    void removeMin(){
+        if(root){
+            root = removeMin(root);
+
+        }
+    }
+    // 从二分搜索树中删除最大值所在节点
+    void removeMax(){
+        if(root){
+            root = removeMax(root);
+        }
+    }
+
 
 
 
@@ -89,20 +147,97 @@ private:
             return contain(node->right,key);
         }
     }
+    // 在以node为根的二分搜索树中查找key所对应的value, 递归算法
+    // 若value不存在, 则返回NULL
     Value* search(Node* node, Key key){
 
-        if(node==NULL){
+        if(node == NULL)
             return NULL;
-        }
         if(node->key == key){
             return &(node->value);
-        }
-        if(node->key>key){
-            search(node->left,key);
+        }else if(node->key>key){
+           return search(node->left,key);
         } else{//node->key<key
-            search(node->right,key);
+           return search(node->right,key);
         }
     }
+    // 对以node为根的二叉搜索树进行前序遍历, 递归算法
+    void preOrder(Node* node){
+        if (node!=NULL){
+            cout<<node->key<<endl;
+            preOrder(node->left);
+            preOrder(node->right);
+
+        }
+    }
+    // 对以node为根的二叉搜索树进行中序遍历, 递归算法
+    void inOrder(Node* node){
+        if(node!=NULL){
+            inOrder(node->left);
+            cout<<node->key<<endl;
+            inOrder(node->right);
+        }
+    }
+    // 对以node为根的二叉搜索树进行后序遍历, 递归算法
+    void postOrder(Node* node){
+        if(node!=NULL){
+            postOrder(node->left);
+            postOrder(node->right);
+            cout<<node->key<<endl;
+        }
+    }
+    // 释放以node为根的二分搜索树的所有节点
+    // 采用后续遍历的递归算法
+    void destroy(Node* node){
+        if(node!=NULL){
+            destroy(node->left);
+            destroy(node->right);
+
+            delete node;
+            count--;
+        }
+    }
+    // 返回以node为根的二分搜索树的最小键值所在的节点,本质上返回的是节点的指针
+    Node* minimum(Node* node){
+        if(node->left==NULL)
+            return node;
+        return minimum(node->left);
+    }
+    // 返回以node为根的二分搜索树的最大键值所在的节点,本质上返回的是节点的指针
+    Node* maximum(Node* node){
+        if(node->right == NULL)
+            return node;
+        return maximum(node->right);
+    }
+    // 删除掉以node为根的二分搜索树中的最小节点
+    // 返回删除节点后新的二分搜索树的根
+    Node* removeMin(Node* node){
+        if(node->left == NULL){
+
+            Node* rightNode = node->right;
+            delete node;
+            count--;
+            return rightNode;
+        }
+        node->left = removeMin(node->left);
+        return node;
+
+    }
+
+    // 删除掉以node为根的二分搜索树中的最大节点
+    // 返回删除节点后新的二分搜索树的根
+    Node* removeMax(Node* node){
+        if(node->right==NULL){
+            Node* leftNode = node->left;
+            delete node;
+            count--;
+            return leftNode;
+        }
+        node->right=removeMax(node->right);
+        return node;
+    }
+
+
 
 
 };
