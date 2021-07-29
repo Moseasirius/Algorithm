@@ -5,8 +5,14 @@ using namespace std;
 int main() {
     std::cout << "Hello, World!" << std::endl;
 //    testBinarySearch();
+//    testFloorAndCeil();
 //    testBSTvsSequenceST();
 //    testOrder();
-testOrderAndLevel();
-    return 0;
+//    testOrderAndLevel();
+//    testRemoveMinMax();
+//    testLimitationsBST();
+        testPredecessorSuccessor();
+
+
+      return 0;
 }

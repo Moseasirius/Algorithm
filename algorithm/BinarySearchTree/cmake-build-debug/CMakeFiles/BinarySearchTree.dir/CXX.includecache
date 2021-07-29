@@ -13,6 +13,8 @@ cassert
 -
 
 E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BinarySearch.h
+cassert
+-
 
 E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/FileOps.h
 iostream
@@ -42,6 +44,8 @@ ctime
 vector
 -
 fstream
+-
+algorithm
 -
 BinarySearch.h
 E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BinarySearch.h

@@ -26,4 +26,17 @@
 
 左右子树都输出完在输出自身节点
 
+# 二分搜索树删除节点
+
+找到 s = min(d->right)
+
+s 是 d 的后继
+
+s->right = delMin(d->right)
+
+s->left = d->left
+
+删除d,s是新的子树的根
+
+
 
