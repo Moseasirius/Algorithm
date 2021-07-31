@@ -17,20 +17,24 @@ iostream
 -
 ctime
 -
+vector
+-
 UnionFind.h
 E:/AlgorithmAndDataStructure/algorithm/UnionFind/UnionFind.h
-test.h
-E:/AlgorithmAndDataStructure/algorithm/UnionFind/test.h
 
 E:/AlgorithmAndDataStructure/algorithm/UnionFind/main.cpp
 iostream
 -
 UnionFindTestHelper.h
 E:/AlgorithmAndDataStructure/algorithm/UnionFind/UnionFindTestHelper.h
+test.h
+E:/AlgorithmAndDataStructure/algorithm/UnionFind/test.h
 
 E:/AlgorithmAndDataStructure/algorithm/UnionFind/test.h
 iostream
 -
 cassert
 -
+UnionFindTestHelper.h
+E:/AlgorithmAndDataStructure/algorithm/UnionFind/UnionFindTestHelper.h
 

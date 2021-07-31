@@ -1,0 +1,3 @@
+"D:\Program Files(x86)\CLion\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\GraphBasics.dir/objects.a
+"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe" cr CMakeFiles\GraphBasics.dir/objects.a @CMakeFiles\GraphBasics.dir\objects1.rsp
+"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\GraphBasics.dir/objects.a -Wl,--no-whole-archive -o GraphBasics.exe -Wl,--out-implib,libGraphBasics.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\GraphBasics.dir\linklibs.rsp
