@@ -80,13 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/Component.h">
+			<Option target="GraphBasics"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/DenseGraph.h">
 			<Option target="GraphBasics"/>
 		</Unit>
-		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/SparseGraoh.h">
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/Path.h">
+			<Option target="GraphBasics"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/ReadGraph.h">
+			<Option target="GraphBasics"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/ShortestPath.h">
+			<Option target="GraphBasics"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/SparseGraph.h">
 			<Option target="GraphBasics"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/main.cpp">
+			<Option target="GraphBasics"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/test.h">
 			<Option target="GraphBasics"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/GraphBasics/CMakeLists.txt">
