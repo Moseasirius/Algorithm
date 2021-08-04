@@ -80,7 +80,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/DenseGraph.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/Edge.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/IndexMinHeap.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/KruskalMST.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/LazyPrimMST.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/MinHeap.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/PrimMST.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/ReadGraph.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/SparseGraph.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/UF.h">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/main.cpp">
+			<Option target="MinimumSpanTrees"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/test.h">
 			<Option target="MinimumSpanTrees"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/MinimumSpanTrees/CMakeLists.txt">

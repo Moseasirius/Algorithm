@@ -80,7 +80,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/BellmanFord.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/DenseGraph.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/Dijkstra.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/Edge.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/IndexMinHeap.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/ReadGraph.h">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/SparseGraph.h">
+			<Option target="ShortestPath"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/main.cpp">
+			<Option target="ShortestPath"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/test.h">
 			<Option target="ShortestPath"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/ShortestPath/CMakeLists.txt">
