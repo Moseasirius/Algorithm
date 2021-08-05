@@ -4,17 +4,17 @@
 
 #ifndef SORT_INSERTIONSORT_H
 #define SORT_INSERTIONSORT_H
+
 #include <algorithm>
+
 template<typename T>
-void InsertionSort(T array [],int length)
-{
-     //假设i前面已经排好序
-    for(int i=1;i<length;i++)
-    {
+void InsertionSort(T array[], int length) {
+    //假设i前面已经排好序
+    for (int i = 1; i < length; i++) {
         //从i往前比较，如果大于或者等于就停止比较，如果小于就交换
-        for(int j=i;j>0&&array[j-1]>array[j];j--)//注意这种写法j不能等于0 因为j-1会数组越界，产生错误。
+        for (int j = i; j > 0 && array[j - 1] > array[j]; j--)//注意这种写法j不能等于0 因为j-1会数组越界，产生错误。
         {
-              swap(array[j-1],array[j]);
+            swap(array[j - 1], array[j]);
         }
         //或者可以写成这样
 //        for(int j=i;j>=0;j--)
@@ -26,19 +26,19 @@ void InsertionSort(T array [],int length)
 //        }
     }
 }
+
 //第一种插入排序交换次数比较多，优化，只需要比较，需要最后一次交换。
 template<typename T>
-void InsertionSort_advance(T array [],int length)
-{
+void InsertionSort_advance(T array[], int length) {
     //假设i前面已经排好序
-    for(int i=1;i<length;i++)
-    {
+    for (int i = 1; i < length; i++) {
         //从i往前比较，如果小于就一直比较，直到大于等于就停止比较
-        int key=array[i];
+        int key = array[i];
         int j;
-        for(j=i;j>=0&&array[j-1]>key;j--)
-            array[j]=array[j-1];
-        array[j]=key;//这里的array[j]与上一行的array[j]不一样
+        for (j = i; j >= 0 && array[j - 1] > key; j--)
+            array[j] = array[j - 1];
+        array[j] = key;//这里的array[j]与上一行的array[j]不一样
     }
 }
+
 #endif //SORT_INSERTIONSORT_H

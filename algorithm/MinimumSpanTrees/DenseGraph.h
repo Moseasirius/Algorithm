@@ -130,4 +130,5 @@ public:
         }
     };
 };
+
 #endif //MINIMUMSPANTREES_DENSEGRAPH_H

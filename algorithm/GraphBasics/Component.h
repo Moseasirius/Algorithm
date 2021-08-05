@@ -9,55 +9,60 @@
 #include <cassert>
 
 template<typename Graph>
-class Component{
+class Component {
 
 private:
     Graph &G;// 图的引用  存储一份构造函数传进来的graph
     bool *visited;
-    int  cCount;//连通分量的个数
+    int cCount;//连通分量的个数
     int *id;
-    void dfs(int v){
 
-        visited[v]= true;
-        id[v]=cCount;
+    void dfs(int v) {
 
-        typename Graph::adjIterator adj(G,v);
-        for(int i = adj.begin();!adj.end();i = adj.next()){
-            if(!visited[i])
+        visited[v] = true;
+        id[v] = cCount;
+
+        typename Graph::adjIterator adj(G, v);
+        for (int i = adj.begin(); !adj.end(); i = adj.next()) {
+            if (!visited[i])
                 dfs(i);
         }
     }
 
 
 public:
-    Component(Graph &graph):G(graph){
-        visited = new bool [G.V()];
+    Component(Graph &graph) : G(graph) {
+        visited = new bool[G.V()];
         id = new int[G.V()];
         cCount = 0;
-        for(int i=0;i<G.V();i++){
+        for (int i = 0; i < G.V(); i++) {
             visited[i] = false;
-            id[i] =-1;
+            id[i] = -1;
         }
-        for(int i=0;i<G.V();i++){
-            if(!visited[i]){
+        for (int i = 0; i < G.V(); i++) {
+            if (!visited[i]) {
                 dfs(i);
                 cCount++;
             }
         }
     }
-    ~Component(){
-        delete [] visited;
-        delete [] id;
+
+    ~Component() {
+        delete[] visited;
+        delete[] id;
     }
-    int count(){
+
+    int count() {
         return cCount;
     }
-    bool isConnected(int v,int w){
-        assert(v>=0 && v<G.V());
-        assert(w>=0 && w<G.V());
-        return id[v]==id[w];
+
+    bool isConnected(int v, int w) {
+        assert(v >= 0 && v < G.V());
+        assert(w >= 0 && w < G.V());
+        return id[v] == id[w];
     }
 
 
 };
+
 #endif //GRAPHBASICS_COMPONENT_H

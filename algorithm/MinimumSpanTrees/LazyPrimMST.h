@@ -13,9 +13,10 @@
 #include "MinHeap.h"
 
 using namespace std;
-template<typename Graph,typename Weight>
+
+template<typename Graph, typename Weight>
 // 使用Prim算法求图的最小生成树
-class LazyPrimMST{
+class LazyPrimMST {
 
 private:
     Graph &G;//图的引用
@@ -25,22 +26,22 @@ private:
     Weight mstWeight;  // 最小生成树的权值
 
     // 访问节点v
-    void visit(int v){
+    void visit(int v) {
 
         assert(!marked[v]);
-        marked[v]= true;
+        marked[v] = true;
 
         // 将和节点v相连接的所有未访问的边放入最小堆中
 
-        typename Graph::adjIterator adj(G,v);
-        for(Edge<Weight>* e = adj.begin();!adj.end();e = adj.next())
-            if(!marked[e->other(v)])
+        typename Graph::adjIterator adj(G, v);
+        for (Edge<Weight> *e = adj.begin(); !adj.end(); e = adj.next())
+            if (!marked[e->other(v)])
                 pq.insert(*e);
     }
 
 public:
     // 构造函数, 使用Prim算法求图的最小生成树
-    LazyPrimMST(Graph &graph):G(graph),pq(MinHeap<Edge<Weight>>(graph.E())) {
+    LazyPrimMST(Graph &graph) : G(graph), pq(MinHeap<Edge<Weight>>(graph.E())) {
         // 算法初始化
         marked = new bool[G.V()];
         for (int i = 0; i < G.V(); i++) {
@@ -73,22 +74,21 @@ public:
         }
     }
 
-        //析构函数
-        ~LazyPrimMST(){
-            delete [] marked;
-        }
-        // 返回最小生成树的所有边
+    //析构函数
+    ~LazyPrimMST() {
+        delete[] marked;
+    }
+    // 返回最小生成树的所有边
 
-        vector<Edge<Weight>> mstEdges(){
-            return mst;
-        };
-        // 返回最小生成树的权值
+    vector<Edge<Weight>> mstEdges() {
+        return mst;
+    };
+    // 返回最小生成树的权值
 
-        Weight result(){
-            return mstWeight;
-        };
+    Weight result() {
+        return mstWeight;
+    };
 };
-
 
 
 #endif //MINIMUMSPANTREES_LAZYPRIMMST_H

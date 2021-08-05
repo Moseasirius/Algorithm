@@ -4,6 +4,7 @@
 
 #ifndef SHORTESTPATH_DENSEGRAPH_H
 #define SHORTESTPATH_DENSEGRAPH_H
+
 #include <iostream>
 #include <vector>
 #include <cassert>
@@ -129,4 +130,5 @@ public:
         }
     };
 };
+
 #endif //SHORTESTPATH_DENSEGRAPH_H

@@ -4,6 +4,7 @@
 
 #ifndef SHORTESTPATH_TEST_H
 #define SHORTESTPATH_TEST_H
+
 #include "DenseGraph.h"
 #include "SparseGraph.h"
 #include "ReadGraph.h"
@@ -12,7 +13,7 @@
 
 
 // 测试我们的Dijkstra最短路径算法
-void testDijkstra(){
+void testDijkstra() {
     string filename = "testG1.txt";
     int V = 5;
 
@@ -21,21 +22,21 @@ void testDijkstra(){
     //SparseGraph<int> g = SparseGraph<int>(V, false);
     ReadGraph<SparseGraph<int>, int> readGraph(g, filename);
 
-    cout<<"Test Dijkstra:"<<endl<<endl;
-    Dijkstra<SparseGraph<int>, int> dij(g,0);
-    for( int i = 1 ; i < V ; i ++ ){
-        if(dij.hasPathTo(i)){
-            cout<<"Shortest Path to "<<i<<" : "<<dij.shortestPathTo(i)<<endl;
+    cout << "Test Dijkstra:" << endl << endl;
+    Dijkstra<SparseGraph<int>, int> dij(g, 0);
+    for (int i = 1; i < V; i++) {
+        if (dij.hasPathTo(i)) {
+            cout << "Shortest Path to " << i << " : " << dij.shortestPathTo(i) << endl;
             dij.showPath(i);
-        }
-        else
-            cout<<"No Path to "<<i<<endl;
+        } else
+            cout << "No Path to " << i << endl;
 
-        cout<<"----------"<<endl;
+        cout << "----------" << endl;
     }
 }
+
 // 测试Bellman-Ford算法
-void testBellmanFord(){
+void testBellmanFord() {
     string filename = "testG2.txt";
 //    string filename = "testG_negative_circle.txt";
     int V = 5;
@@ -43,22 +44,21 @@ void testBellmanFord(){
     SparseGraph<int> g = SparseGraph<int>(V, true);
     ReadGraph<SparseGraph<int>, int> readGraph(g, filename);
 
-    cout<<"Test Bellman-Ford:"<<endl<<endl;
+    cout << "Test Bellman-Ford:" << endl << endl;
 
     int s = 0;
     BellmanFord<SparseGraph<int>, int> bellmanFord(g, s);
-    if( bellmanFord.negativeCycle() )
-        cout<<"The graph contain negative cycle!"<<endl;
+    if (bellmanFord.negativeCycle())
+        cout << "The graph contain negative cycle!" << endl;
     else
-        for( int i = 0 ; i < V ; i ++ ) {
-            if(i == s)
+        for (int i = 0; i < V; i++) {
+            if (i == s)
                 continue;
 
             if (bellmanFord.hasPathTo(i)) {
                 cout << "Shortest Path to " << i << " : " << bellmanFord.shortestPathTo(i) << endl;
                 bellmanFord.showPath(i);
-            }
-            else
+            } else
                 cout << "No Path to " << i << endl;
 
             cout << "----------" << endl;
@@ -66,4 +66,5 @@ void testBellmanFord(){
 
 
 }
+
 #endif //SHORTESTPATH_TEST_H
