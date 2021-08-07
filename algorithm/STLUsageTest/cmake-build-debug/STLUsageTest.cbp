@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="STLUsageTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STLUsageTest">
+				<Option output="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/STLUsageTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 STLUsageTest"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STLUsageTest/fast">
+				<Option output="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/STLUsageTest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 STLUsageTest/fast"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/main.cpp">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testAll.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testDeque.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testList.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testMap.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testPriority_queue.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testQueque.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testSet.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testStack.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testString.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testVector.h">
+			<Option target="STLUsageTest"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
