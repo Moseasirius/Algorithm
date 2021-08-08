@@ -11,7 +11,7 @@
 #include "testMap.h"
 #include "testString.h"
 #include "testPriority_queue.h"
-#include "testQueque.h"
+#include "testQueue.h"
 #include "testStack.h"
 
 
@@ -98,6 +98,7 @@ void testMapALl() {
 }
 
 void testStringAll() {
+
     TestString::testString();
     TestString::testAssign();
     TestString::testAppend();
@@ -127,7 +128,7 @@ void testPriorityQueue() {
 
 void testQueueAll() {
 
-    Testqueque::testqueque();
+    TestQueue::testQueue();
 
 }
 

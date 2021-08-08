@@ -2,16 +2,16 @@
 // Created by mozhenhai on 2021/8/6.
 //
 
-#ifndef STLUSAGETEST_TESTQUEQUE_H
-#define STLUSAGETEST_TESTQUEQUE_H
+#ifndef STLUSAGETEST_TESTQUEUE_H
+#define STLUSAGETEST_TESTQUEUE_H
 
 #include <deque>
 #include<iostream>
 
 using namespace std;
 
-namespace Testqueque {
-    void testqueque() {
+namespace TestQueue {
+    void testQueue() {
         //queue::queue()函数 创建queue
         deque<int> myDeque(3, 1999);//deque with 3 elements
         list<int> myList(2, 1998);//list with 2 elements
@@ -55,4 +55,4 @@ namespace Testqueque {
     }
 
 }
-#endif //STLUSAGETEST_TESTQUEQUE_H
+#endif //STLUSAGETEST_TESTQUEUE_H
