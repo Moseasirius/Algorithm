@@ -18,6 +18,14 @@ ctime
 util.h
 E:/AlgorithmAndDataStructure/LeetCode/UsingArray/util.h
 
+E:/AlgorithmAndDataStructure/LeetCode/UsingArray/Minimum-Size-Subarray-Sum.h
+iostream
+-
+vector
+-
+algorithm
+-
+
 E:/AlgorithmAndDataStructure/LeetCode/UsingArray/MoveZeroes.h
 iostream
 -
@@ -30,7 +38,21 @@ iostream
 vector
 -
 
+E:/AlgorithmAndDataStructure/LeetCode/UsingArray/SortColors.h
+iostream
+-
+vector
+-
+cassert
+-
+
 E:/AlgorithmAndDataStructure/LeetCode/UsingArray/main.cpp
+iostream
+-
+test.h
+E:/AlgorithmAndDataStructure/LeetCode/UsingArray/test.h
+
+E:/AlgorithmAndDataStructure/LeetCode/UsingArray/test.h
 iostream
 -
 BinarySearch.h
@@ -39,6 +61,10 @@ MoveZeroes.h
 E:/AlgorithmAndDataStructure/LeetCode/UsingArray/MoveZeroes.h
 MoveZeroesII.h
 E:/AlgorithmAndDataStructure/LeetCode/UsingArray/MoveZeroesII.h
+SortColors.h
+E:/AlgorithmAndDataStructure/LeetCode/UsingArray/SortColors.h
+Minimum-Size-Subarray-Sum.h
+E:/AlgorithmAndDataStructure/LeetCode/UsingArray/Minimum-Size-Subarray-Sum.h
 
 E:/AlgorithmAndDataStructure/LeetCode/UsingArray/util.h
 iostream

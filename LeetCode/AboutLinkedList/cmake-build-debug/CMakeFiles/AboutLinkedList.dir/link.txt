@@ -1,0 +1,3 @@
+"D:\Program Files(x86)\CLion\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\AboutLinkedList.dir/objects.a
+E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\AboutLinkedList.dir/objects.a @CMakeFiles\AboutLinkedList.dir\objects1.rsp
+E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\AboutLinkedList.dir/objects.a -Wl,--no-whole-archive -o AboutLinkedList.exe -Wl,--out-implib,libAboutLinkedList.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AboutLinkedList.dir\linklibs.rsp

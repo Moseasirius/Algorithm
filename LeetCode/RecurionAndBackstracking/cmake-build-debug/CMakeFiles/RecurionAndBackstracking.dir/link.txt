@@ -1,0 +1,3 @@
+"D:\Program Files(x86)\CLion\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\RecurionAndBackstracking.dir/objects.a
+E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\ar.exe cr CMakeFiles\RecurionAndBackstracking.dir/objects.a @CMakeFiles\RecurionAndBackstracking.dir\objects1.rsp
+E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\RecurionAndBackstracking.dir/objects.a -Wl,--no-whole-archive -o RecurionAndBackstracking.exe -Wl,--out-implib,libRecurionAndBackstracking.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RecurionAndBackstracking.dir\linklibs.rsp

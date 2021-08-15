@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="GreedyAlgorithms" targetName="GreedyAlgorithms" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d701a42-52bc-4654-8138-95024f5cd86c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/AboutLinkedList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingArray/Minimum-Size-Subarray-Sum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingArray/SortColors.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingArray/test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/UsingHashTable.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/00BinarySearch.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/BinarySearch.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/01MoveZeroes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/MoveZeroes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/02MoveZeroesII.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/MoveZeroesII.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/03SortColors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/04Two-Sum-II.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/Two-Sum-II.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/05Minimum-Size-Subarray-Sum.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/06Longest-Substring-Without-Repeating-Characters.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/Longest-Substring-Without-Repeating-Characters.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/UsingArray.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/UsingArray.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/UsingArray.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/UsingArray.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingArray/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1wl0pngOhg25xrM695hwSLEC04t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreedyAlgorithms" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GreedyAlgorithms" TARGET_NAME="GreedyAlgorithms" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GreedyAlgorithms" RUN_TARGET_NAME="GreedyAlgorithms">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d701a42-52bc-4654-8138-95024f5cd86c" name="Default Changelist" comment="" />
+      <created>1629018052479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629018052479</updated>
+      <workItem from="1629018054660" duration="74000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
