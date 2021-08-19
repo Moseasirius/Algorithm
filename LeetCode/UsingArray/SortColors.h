@@ -10,6 +10,15 @@
 #include <cassert>
 
 using namespace std;
+
+// 75. Sort Colors
+// https://leetcode.com/problems/sort-colors/description/
+//
+// 计数排序的思路
+// 对整个数组遍历了两遍
+// 时间复杂度: O(n)
+// 空间复杂度: O(k), k为元素的取值范围
+
 namespace sortColors1 {
     class Solution {
     public:
@@ -30,23 +39,20 @@ namespace sortColors1 {
 
         }
     };
-
-    void SortColorsTest() {
-        int array[] = {2, 0, 2, 1, 1, 0};
-        vector<int> vec(array, array + sizeof(array) / sizeof(int));
-        Solution().sortColors(vec);
-        for (int i = 0; i < vec.size(); i++)
-            cout << vec[i] << " ";
-        cout << endl;
-
-    }
-
 }
+// 75. Sort Colors
+// https://leetcode.com/problems/sort-colors/description/
+//
+// 三路快速排序的思想
+// 对整个数组只遍历了一遍
+// 时间复杂度: O(n)
+// 空间复杂度: O(1)
+
 namespace sortColors2 {
     class Solution {
     public:
         void sortColors(vector<int> &nums) {
-            int count[3] = {0};   // 存放0, 1, 2三个元素的频率
+            int count[3] = {0};   // 存放0, 1, 2三个元素的频率.
             for (int i = 0; i < nums.size(); i++) {
                 assert(0 <= nums[i] && nums[i] <= 2);
                 count[nums[i]]++;
@@ -58,21 +64,9 @@ namespace sortColors2 {
                     assert(i >= count[0] + count[1]);
                     nums[i] = 2;
                 }
-
             }
         }
     };
-
-    void SortColorsTest() {
-        int array[] = {2, 0, 2, 1, 1, 0};
-        vector<int> vec(array, array + sizeof(array) / sizeof(int));
-        Solution().sortColors(vec);
-        for (int i = 0; i < vec.size(); i++)
-            cout << vec[i] << " ";
-        cout << endl;
-
-    }
-
 }
 
 #endif //USINGARRAY_SORTCOLORS_H

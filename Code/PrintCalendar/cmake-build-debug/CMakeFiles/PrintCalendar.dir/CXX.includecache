@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/AlgorithmAndDataStructure/Code/PrintCalendar/main.cpp
+iostream
+-
+printCalendar.h
+E:/AlgorithmAndDataStructure/Code/PrintCalendar/printCalendar.h
+
+E:/AlgorithmAndDataStructure/Code/PrintCalendar/printCalendar.cpp
+printCalendar.h
+E:/AlgorithmAndDataStructure/Code/PrintCalendar/printCalendar.h
+
+E:/AlgorithmAndDataStructure/Code/PrintCalendar/printCalendar.h
+iostream
+-
+iomanip
+-
+

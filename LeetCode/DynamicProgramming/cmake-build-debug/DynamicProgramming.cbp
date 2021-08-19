@@ -80,6 +80,39 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/0-1-knapsack-optimized.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/0-1-knapsack.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/Climbing-Stairs.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/Fibonacci.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/House-Robber.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/Integer-Break.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/Longest-Common-Subsequence.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/Longest-Increasing-Subsequence.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/Optional-01-More-about-Fibonacci.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/Optional-02-More-about-LIS.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/Partition-Equal-Subset-Sum.h">
+			<Option target="DynamicProgramming"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/main.cpp">
 			<Option target="DynamicProgramming"/>
 		</Unit>

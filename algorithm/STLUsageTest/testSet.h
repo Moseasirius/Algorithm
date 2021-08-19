@@ -9,7 +9,12 @@
 #include <iostream>
 
 using namespace std;
+bool fncomp (int lhs, int rhs) {return lhs<rhs;}
 
+struct classcomp {
+    bool operator() (const int& lhs, const int& rhs) const
+    {return lhs<rhs;}
+};
 namespace TestSet {
     void testSet() {
         //set::set()函数 功能：构造set

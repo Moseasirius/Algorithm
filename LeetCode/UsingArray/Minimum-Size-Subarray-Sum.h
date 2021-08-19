@@ -10,41 +10,69 @@
 #include <algorithm>
 using namespace std;
 
-namespace MinimumSizeSubarray{
-class Solution{
 
-public:
-    int minSubArrayLen(int target, vector<int>& nums) {
+// 209. Minimum Size Subarray Sum
+// https://leetcode.com/problems/minimum-size-subarray-sum/description/
+//
+// 暴力解法
+// 该方法在 Leetcode 中会超时！
+// 时间复杂度: O(n^3)
+// 空间复杂度: O(1)
 
-        int l = 0 , r = -1;
-        int sum = 0, res = nums.size()+1;
-        while(l<nums.size()){
-            if(r+1<nums.size()&&sum<target)
-                sum += nums[++r];
-            else
-                sum -= nums[l++];
-            if(sum>=target)
 
-            res = min(res,r-l+1);
+
+// 209. Minimum Size Subarray Sum
+// https://leetcode.com/problems/minimum-size-subarray-sum/description/
+//
+// 优化暴力解
+// 时间复杂度: O(n^2)
+// 空间复杂度: O(n)
+
+// 209. Minimum Size Subarray Sum
+// https://leetcode.com/problems/minimum-size-subarray-sum/description/
+//
+// 滑动窗口的思路
+// 时间复杂度: O(n)
+// 空间复杂度: O(1)
+
+namespace MinimumSizeSubarraySum{
+    class Solution{
+
+    public:
+        int minSubArrayLen(int target, vector<int>& nums) {
+
+            int l = 0 , r = -1; //nums[l...r] 为我们的滑动窗口
+            int sum = 0, res = nums.size()+1;
+            while(l<nums.size()){
+                if(r+1<nums.size()&&sum<target)
+                    sum += nums[++r];
+                else
+                    sum -= nums[l++];
+                if(sum>=target)
+
+                    res = min(res,r-l+1);
+            }
+            if(res > nums.size()) return 0;
+            return res;
+
+
         }
-        if(res > nums.size()) return 0;
-        return res;
-
-
-    }
-};
-void minSubArrayLenTest(){
-    int array[] = {5,1,3,5,10,7,4,9,2,8};
-    vector<int> vec(array, array + sizeof(array) / sizeof(int));
-
-    int res;
-    res = Solution().minSubArrayLen(15,vec);
-    cout<<res<<endl;
-    for (int i = 0; i < vec.size(); i++)
-        cout << vec[i] << " ";
-    cout << endl;
+    };
 }
+// 209. Minimum Size Subarray Sum
+// https://leetcode.com/problems/minimum-size-subarray-sum/description/
+//
+// 另外一个滑动窗口的实现, 仅供参考
+// 时间复杂度: O(n)
+// 空间复杂度: O(1)
 
+// 209. Minimum Size Subarray Sum
+// https://leetcode.com/problems/minimum-size-subarray-sum/description/
+//
+// 二分搜索
+// 扩展main2的方法。对于每一个l, 可以使用二分搜索法搜索r
+//
+// 时间复杂度: O(nlogn)
+// 空间复杂度: O(n)
 
-}
 #endif //USINGARRAY_MINIMUM_SIZE_SUBARRAY_SUM_H

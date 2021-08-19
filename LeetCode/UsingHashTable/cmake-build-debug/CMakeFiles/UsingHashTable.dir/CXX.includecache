@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/AlgorithmAndDataStructure/LeetCode/UsingHashTable/Intersection-of-Two-Arrays.h
+iostream
+-
+vector
+-
+set
+-
+
+E:/AlgorithmAndDataStructure/LeetCode/UsingHashTable/basic-map.h
+map
+-
+
+E:/AlgorithmAndDataStructure/LeetCode/UsingHashTable/main.cpp
+iostream
+-
+test.h
+E:/AlgorithmAndDataStructure/LeetCode/UsingHashTable/test.h
+basic-map.h
+E:/AlgorithmAndDataStructure/LeetCode/UsingHashTable/basic-map.h
+
+E:/AlgorithmAndDataStructure/LeetCode/UsingHashTable/test.h
+Intersection-of-Two-Arrays.h
+E:/AlgorithmAndDataStructure/LeetCode/UsingHashTable/Intersection-of-Two-Arrays.h
+

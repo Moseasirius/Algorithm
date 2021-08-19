@@ -80,7 +80,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/AboutLinkedList/Delete-Node-in-a-Linked-List.h">
+			<Option target="AboutLinkedList"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/AboutLinkedList/Remove-Nth-Node-From-End-of-List.h">
+			<Option target="AboutLinkedList"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/AboutLinkedList/RemoveLinkedListElements.h">
+			<Option target="AboutLinkedList"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/AboutLinkedList/ReverseLinkedList.h">
+			<Option target="AboutLinkedList"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/AboutLinkedList/SwapNodesInPairs.h">
+			<Option target="AboutLinkedList"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/AboutLinkedList/TestYourLinkedList.h">
+			<Option target="AboutLinkedList"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/AboutLinkedList/main.cpp">
+			<Option target="AboutLinkedList"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/AboutLinkedList/test.h">
 			<Option target="AboutLinkedList"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/AboutLinkedList/CMakeLists.txt">

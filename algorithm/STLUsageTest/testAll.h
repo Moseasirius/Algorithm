@@ -13,6 +13,7 @@
 #include "testPriority_queue.h"
 #include "testQueue.h"
 #include "testStack.h"
+#include "testSet.h"
 
 
 void testVectorAll() {
@@ -76,6 +77,9 @@ void testListAll() {
     TestList::testSwap();
     TestList::testGetAllocator();
     TestList::testSort();
+
+}
+void testSetAll(){
 
 }
 

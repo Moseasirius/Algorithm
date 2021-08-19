@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Letter-Combinations-of-a-Phone-Number.h
+iostream
+-
+vector
+-
+cassert
+-
+
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Permutations.h
+iostream
+-
+vector
+-
+set
+-
+
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/main.cpp
+iostream
+-
+Letter-Combinations-of-a-Phone-Number.h
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Letter-Combinations-of-a-Phone-Number.h
+Permutations.h
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Permutations.h
+

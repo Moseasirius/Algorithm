@@ -25,8 +25,8 @@ testString.h
 E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testString.h
 testPriority_queue.h
 E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testPriority_queue.h
-testQueque.h
-E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testQueque.h
+testQueue.h
+E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testQueue.h
 testStack.h
 E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testStack.h
 
@@ -58,7 +58,7 @@ iostream
 queue
 -
 
-E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testQueque.h
+E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testQueue.h
 deque
 -
 iostream

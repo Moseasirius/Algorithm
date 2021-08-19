@@ -98,7 +98,7 @@
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testPriority_queue.h">
 			<Option target="STLUsageTest"/>
 		</Unit>
-		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testQueque.h">
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testQueue.h">
 			<Option target="STLUsageTest"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/STLUsageTest/testSet.h">

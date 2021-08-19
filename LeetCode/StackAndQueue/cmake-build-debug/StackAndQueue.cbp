@@ -80,6 +80,45 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Binary-Tree-Level-Order-Traversal.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Non-Recursive-Implementation-of-a-Recursive-Algorithm.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Optional-01-Classic-Non-Recursive-Preorder-Traversal.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Optional-02-Classic-Non-Recursive-Inorder-Traversal.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Optional-03-Classic-Non-Recursive-Postorder-Traversal.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Optional-04-Binary-Tree-Morris-Traversal.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Optional-05-Word-Ladder.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Perfect-Squares.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Priority-Queue.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Recursion-and-Stack.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/StackQueueHelper.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Top-K-Frequent-Elements.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/Valid-Parentheses.h">
+			<Option target="StackAndQueue"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/StackAndQueue/main.cpp">
 			<Option target="StackAndQueue"/>
 		</Unit>

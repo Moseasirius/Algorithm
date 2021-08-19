@@ -7,7 +7,7 @@ CMakeFiles/STLUsageTest.dir/main.cpp.obj: ../testDeque.h
 CMakeFiles/STLUsageTest.dir/main.cpp.obj: ../testList.h
 CMakeFiles/STLUsageTest.dir/main.cpp.obj: ../testMap.h
 CMakeFiles/STLUsageTest.dir/main.cpp.obj: ../testPriority_queue.h
-CMakeFiles/STLUsageTest.dir/main.cpp.obj: ../testQueque.h
+CMakeFiles/STLUsageTest.dir/main.cpp.obj: ../testQueue.h
 CMakeFiles/STLUsageTest.dir/main.cpp.obj: ../testStack.h
 CMakeFiles/STLUsageTest.dir/main.cpp.obj: ../testString.h
 CMakeFiles/STLUsageTest.dir/main.cpp.obj: ../testVector.h

@@ -12,60 +12,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d701a42-52bc-4654-8138-95024f5cd86c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/AboutLinkedList.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingArray/Minimum-Size-Subarray-Sum.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingArray/SortColors.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingArray/test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/UsingHashTable.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingHashTable/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingHashTable/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UsingHashTable/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/00BinarySearch.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/BinarySearch.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/01MoveZeroes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/MoveZeroes.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/02MoveZeroesII.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/MoveZeroesII.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/03SortColors.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/04Two-Sum-II.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/Two-Sum-II.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/05Minimum-Size-Subarray-Sum.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/06Longest-Substring-Without-Repeating-Characters.h" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/Longest-Substring-Without-Repeating-Characters.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/UsingArray.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/UsingArray.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/UsingArray.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/UsingArray.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/UsingArray.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UsingArray/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingArray/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/Delete-Node-in-a-Linked-List.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/Remove-Nth-Node-From-End-of-List.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/RemoveLinkedListElements.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/ReverseLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/SwapNodesInPairs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/TestYourLinkedList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AboutLinkedList/test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/Binary-Tree-Paths.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/Binary-Tree-and-RecursionHelper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/Invert-Binary-Tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/Lowest-Common-Ancestor-of-a-Binary-Search-Tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/Maximum-Depth-of-Binary-Tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/Path-Sum-III.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/Path-Sum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/0-1-knapsack-optimized.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/0-1-knapsack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/Climbing-Stairs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/Fibonacci.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/House-Robber.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/Integer-Break.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/Longest-Common-Subsequence.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/Longest-Increasing-Subsequence.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/Optional-01-More-about-Fibonacci.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/Optional-02-More-about-LIS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DynamicProgramming/Partition-Equal-Subset-Sum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assign-Cookies.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Non-overlapping-Intervals.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/Combinations-optimized.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/Combinations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/Letter-Combinations-of-a-Phone-Number.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/N-Queens.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/Number-of-Islands.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/Permutations.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/Word-Search.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Binary-Tree-Level-Order-Traversal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Non-Recursive-Implementation-of-a-Recursive-Algorithm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Optional-01-Classic-Non-Recursive-Preorder-Traversal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Optional-02-Classic-Non-Recursive-Inorder-Traversal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Optional-03-Classic-Non-Recursive-Postorder-Traversal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Optional-04-Binary-Tree-Morris-Traversal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Optional-05-Word-Ladder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Perfect-Squares.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Priority-Queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Recursion-and-Stack.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/StackQueueHelper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Top-K-Frequent-Elements.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StackAndQueue/Valid-Parentheses.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/4Sum-II.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/Contains-Duplicate-II.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/Contains-Duplicate-III.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/Intersection-of-Two-Arrays-II.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/Intersection-of-Two-Arrays.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/More-About-Set-And-Map.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/Number-of-Boomerangs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/Two-Sum.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UsingHashTable/basic-map.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutLinkedList/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutLinkedList/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/AboutLinkedList.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/AboutLinkedList.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/CMakeFiles/AboutLinkedList.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/CMakeFiles/AboutLinkedList.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutLinkedList/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AboutLinkedList/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../AboutLinkedList/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryTreeAndRecursion/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryTreeAndRecursion/cmake-build-debug/BinaryTreeAndRecursion.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/cmake-build-debug/BinaryTreeAndRecursion.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryTreeAndRecursion/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryTreeAndRecursion/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinaryTreeAndRecursion/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../BinaryTreeAndRecursion/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DynamicProgramming/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicProgramming/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DynamicProgramming/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicProgramming/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DynamicProgramming/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicProgramming/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DynamicProgramming/cmake-build-debug/DynamicProgramming.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicProgramming/cmake-build-debug/DynamicProgramming.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DynamicProgramming/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../DynamicProgramming/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/GreedyAlgorithms.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/GreedyAlgorithms.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecurionAndBackstracking/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecurionAndBackstracking/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecurionAndBackstracking/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecurionAndBackstracking/cmake-build-debug/RecurionAndBackstracking.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/cmake-build-debug/RecurionAndBackstracking.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RecurionAndBackstracking/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../RecurionAndBackstracking/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackAndQueue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../StackAndQueue/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackAndQueue/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../StackAndQueue/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackAndQueue/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../StackAndQueue/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackAndQueue/cmake-build-debug/StackAndQueue.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../StackAndQueue/cmake-build-debug/StackAndQueue.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StackAndQueue/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../StackAndQueue/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingHashTable/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingHashTable/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingHashTable/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingHashTable/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingHashTable/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingHashTable/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingHashTable/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingHashTable/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UsingHashTable/cmake-build-debug/UsingHashTable.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../UsingHashTable/cmake-build-debug/UsingHashTable.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +133,18 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="GreedyAlgorithms" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GreedyAlgorithms" TARGET_NAME="GreedyAlgorithms" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GreedyAlgorithms" RUN_TARGET_NAME="GreedyAlgorithms">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GreedyAlgorithms" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="GreedyAlgorithms" TARGET_NAME="GreedyAlgorithms" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="GreedyAlgorithms" RUN_TARGET_NAME="GreedyAlgorithms">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -120,10 +164,22 @@
       <option name="presentableId" value="Default" />
       <updated>1629018052479</updated>
       <workItem from="1629018054660" duration="74000" />
+      <workItem from="1629037322809" duration="831000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

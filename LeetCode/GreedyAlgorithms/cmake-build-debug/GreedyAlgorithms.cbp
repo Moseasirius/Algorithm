@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/GreedyAlgorithms/Assign-Cookies.h">
+			<Option target="GreedyAlgorithms"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/GreedyAlgorithms/Non-overlapping-Intervals.h">
+			<Option target="GreedyAlgorithms"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/GreedyAlgorithms/main.cpp">
 			<Option target="GreedyAlgorithms"/>
 		</Unit>

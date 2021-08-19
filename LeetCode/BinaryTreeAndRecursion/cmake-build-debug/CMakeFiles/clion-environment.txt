@@ -1,4 +1,4 @@
-ToolSet: w64 6.0 (local)@E:\Qt\Qt5.14.0\Tools\mingw730_64
+ToolSet: w64 6.0 (local)@D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64
 Options: 
 
 Options:

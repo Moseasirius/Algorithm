@@ -3,4 +3,4 @@ project(GreedyAlgorithms)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GreedyAlgorithms main.cpp)
+add_executable(GreedyAlgorithms main.cpp Assign-Cookies.h Non-overlapping-Intervals.h)
