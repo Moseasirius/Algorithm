@@ -11,10 +11,10 @@
 				<Option working_dir="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DynamicProgramming">
@@ -24,18 +24,18 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicProgramming"/>
-					<CompileFile command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicProgramming"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DynamicProgramming/fast">
@@ -45,38 +45,38 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicProgramming/fast"/>
-					<CompileFile command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 DynamicProgramming/fast"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -114,6 +114,9 @@
 			<Option target="DynamicProgramming"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/main.cpp">
+			<Option target="DynamicProgramming"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/test.h">
 			<Option target="DynamicProgramming"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/DynamicProgramming/CMakeLists.txt">

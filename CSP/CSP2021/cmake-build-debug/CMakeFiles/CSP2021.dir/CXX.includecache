@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/AlgorithmAndDataStructure/CSP/CSP2021/CSP20210401.h
+iostream
+-
+
+E:/AlgorithmAndDataStructure/CSP/CSP2021/main.cpp
+iostream
+-
+CSP20210401.h
+E:/AlgorithmAndDataStructure/CSP/CSP2021/CSP20210401.h
+

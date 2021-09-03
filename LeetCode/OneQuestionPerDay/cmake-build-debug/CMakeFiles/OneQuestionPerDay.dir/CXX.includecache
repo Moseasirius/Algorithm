@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/SmallestKLCCI.h
+vector
+-
+ctime
+-
+iostream
+-
+queue
+-
+
+E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/main.cpp
+iostream
+-
+SmallestKLCCI.h
+E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/SmallestKLCCI.h
+

@@ -1,7 +1,7 @@
-set(CMAKE_C_COMPILER "E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/gcc.exe")
+set(CMAKE_C_COMPILER "D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
-set(CMAKE_C_COMPILER_VERSION "7.3.0")
+set(CMAKE_C_COMPILER_VERSION "8.1.0")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")
@@ -18,11 +18,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/ar.exe")
-set(CMAKE_C_COMPILER_AR "E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "E:/Qt/Qt5.14.0/Tools/mingw730_64/bin/ld.exe")
+set(CMAKE_AR "D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/ar.exe")
+set(CMAKE_C_COMPILER_AR "D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
@@ -71,7 +71,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "E:/Qt/Qt5.14.0/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include;E:/Qt/Qt5.14.0/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed;E:/Qt/Qt5.14.0/Tools/mingw730_64/x86_64-w64-mingw32/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "E:/Qt/Qt5.14.0/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0;E:/Qt/Qt5.14.0/Tools/mingw730_64/lib/gcc;E:/Qt/Qt5.14.0/Tools/mingw730_64/x86_64-w64-mingw32/lib;E:/Qt/Qt5.14.0/Tools/mingw730_64/lib")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include;D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed;D:/Program Files(x86)/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/include")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

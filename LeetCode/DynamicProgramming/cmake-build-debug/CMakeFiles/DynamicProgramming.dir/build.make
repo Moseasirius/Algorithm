@@ -78,15 +78,15 @@ include CMakeFiles/DynamicProgramming.dir/flags.make
 CMakeFiles/DynamicProgramming.dir/main.cpp.obj: CMakeFiles/DynamicProgramming.dir/flags.make
 CMakeFiles/DynamicProgramming.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\AlgorithmAndDataStructure\LeetCode\DynamicProgramming\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DynamicProgramming.dir/main.cpp.obj"
-	E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DynamicProgramming.dir\main.cpp.obj -c E:\AlgorithmAndDataStructure\LeetCode\DynamicProgramming\main.cpp
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DynamicProgramming.dir\main.cpp.obj -c E:\AlgorithmAndDataStructure\LeetCode\DynamicProgramming\main.cpp
 
 CMakeFiles/DynamicProgramming.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DynamicProgramming.dir/main.cpp.i"
-	E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\AlgorithmAndDataStructure\LeetCode\DynamicProgramming\main.cpp > CMakeFiles\DynamicProgramming.dir\main.cpp.i
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\AlgorithmAndDataStructure\LeetCode\DynamicProgramming\main.cpp > CMakeFiles\DynamicProgramming.dir\main.cpp.i
 
 CMakeFiles/DynamicProgramming.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DynamicProgramming.dir/main.cpp.s"
-	E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\AlgorithmAndDataStructure\LeetCode\DynamicProgramming\main.cpp -o CMakeFiles\DynamicProgramming.dir\main.cpp.s
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\AlgorithmAndDataStructure\LeetCode\DynamicProgramming\main.cpp -o CMakeFiles\DynamicProgramming.dir\main.cpp.s
 
 # Object files for target DynamicProgramming
 DynamicProgramming_OBJECTS = \
