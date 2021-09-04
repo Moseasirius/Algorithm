@@ -3,4 +3,5 @@
 
 CMakeFiles/OneQuestionPerDay.dir/main.cpp.obj: ../SmallestKLCCI.h
 CMakeFiles/OneQuestionPerDay.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/OneQuestionPerDay.dir/main.cpp.obj: ../test.h
 

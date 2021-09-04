@@ -3,4 +3,4 @@ project(OneQuestionPerDay)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(OneQuestionPerDay main.cpp SmallestKLCCI.h)
+add_executable(OneQuestionPerDay main.cpp SmallestKLCCI.h test.h Fibonacci.h)

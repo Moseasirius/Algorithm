@@ -80,10 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/Fibonacci.h">
+			<Option target="OneQuestionPerDay"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/SmallestKLCCI.h">
 			<Option target="OneQuestionPerDay"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/main.cpp">
+			<Option target="OneQuestionPerDay"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/test.h">
 			<Option target="OneQuestionPerDay"/>
 		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/CMakeLists.txt">

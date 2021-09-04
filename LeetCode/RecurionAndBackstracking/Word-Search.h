@@ -11,4 +11,8 @@
 /// 回溯法
 /// 时间复杂度: O(m*n*m*n)
 /// 空间复杂度: O(m*n)
+
+namespace WordSearch{
+
+}
 #endif //RECURIONANDBACKSTRACKING_WORD_SEARCH_H

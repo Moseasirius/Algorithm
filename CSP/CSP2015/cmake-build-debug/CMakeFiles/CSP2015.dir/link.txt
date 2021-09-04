@@ -1,0 +1,3 @@
+"D:\Program Files(x86)\CLion\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CSP2015.dir/objects.a
+"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\ar.exe" cr CMakeFiles\CSP2015.dir/objects.a @CMakeFiles\CSP2015.dir\objects1.rsp
+"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" -g -Wl,--whole-archive CMakeFiles\CSP2015.dir/objects.a -Wl,--no-whole-archive -o CSP2015.exe -Wl,--out-implib,libCSP2015.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CSP2015.dir\linklibs.rsp

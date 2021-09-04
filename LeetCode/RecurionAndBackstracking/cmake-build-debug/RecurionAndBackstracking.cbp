@@ -98,6 +98,9 @@
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Permutations.h">
 			<Option target="RecurionAndBackstracking"/>
 		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Subsets.h">
+			<Option target="RecurionAndBackstracking"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Word-Search.h">
 			<Option target="RecurionAndBackstracking"/>
 		</Unit>

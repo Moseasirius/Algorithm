@@ -9,5 +9,7 @@
 /// https://leetcode.com/problems/number-of-islands/description/
 /// 时间复杂度: O(n*m)
 /// 空间复杂度: O(n*m)
+namespace numberOfIslands{
 
+}
 #endif //RECURIONANDBACKSTRACKING_NUMBER_OF_ISLANDS_H

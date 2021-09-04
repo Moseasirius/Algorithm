@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Combinations.h
+iostream
+-
+vector
+-
+
 E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Letter-Combinations-of-a-Phone-Number.h
 iostream
 -
@@ -22,6 +28,12 @@ vector
 set
 -
 
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Subsets.h
+iostream
+-
+vector
+-
+
 E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/main.cpp
 iostream
 -
@@ -29,4 +41,8 @@ Letter-Combinations-of-a-Phone-Number.h
 E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Letter-Combinations-of-a-Phone-Number.h
 Permutations.h
 E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Permutations.h
+Subsets.h
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Subsets.h
+Combinations.h
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Combinations.h
 
