@@ -83,6 +83,12 @@
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/Fibonacci.h">
 			<Option target="OneQuestionPerDay"/>
 		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/ImplementRand10UsingRand7.h">
+			<Option target="OneQuestionPerDay"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/MaximalSquare.h">
+			<Option target="OneQuestionPerDay"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/SmallestKLCCI.h">
 			<Option target="OneQuestionPerDay"/>
 		</Unit>

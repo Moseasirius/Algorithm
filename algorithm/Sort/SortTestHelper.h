@@ -102,5 +102,5 @@ namespace SortTestHelper {
 
     }
 
-};
+}
 #endif //SORT_SORTTESTHELPER_H

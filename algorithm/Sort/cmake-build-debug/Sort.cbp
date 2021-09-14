@@ -107,6 +107,9 @@
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/Sort/SortTestHelper.h">
 			<Option target="Sort"/>
 		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/Sort/Student.h">
+			<Option target="Sort"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/Sort/main.cpp">
 			<Option target="Sort"/>
 		</Unit>

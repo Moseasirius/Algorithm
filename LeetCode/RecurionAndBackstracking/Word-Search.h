@@ -13,6 +13,12 @@
 /// 空间复杂度: O(m*n)
 
 namespace WordSearch{
+    class Solution {
+    public:
+        bool exist(vector<vector<char>>& board, string word) {
+
+        }
+    };
 
 }
 #endif //RECURIONANDBACKSTRACKING_WORD_SEARCH_H

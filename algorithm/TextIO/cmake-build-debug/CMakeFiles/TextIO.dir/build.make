@@ -78,28 +78,28 @@ include CMakeFiles/TextIO.dir/flags.make
 CMakeFiles/TextIO.dir/main.cpp.obj: CMakeFiles/TextIO.dir/flags.make
 CMakeFiles/TextIO.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\AlgorithmAndDataStructure\algorithm\TextIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TextIO.dir/main.cpp.obj"
-	E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TextIO.dir\main.cpp.obj -c E:\AlgorithmAndDataStructure\algorithm\TextIO\main.cpp
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TextIO.dir\main.cpp.obj -c E:\AlgorithmAndDataStructure\algorithm\TextIO\main.cpp
 
 CMakeFiles/TextIO.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TextIO.dir/main.cpp.i"
-	E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\AlgorithmAndDataStructure\algorithm\TextIO\main.cpp > CMakeFiles\TextIO.dir\main.cpp.i
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\AlgorithmAndDataStructure\algorithm\TextIO\main.cpp > CMakeFiles\TextIO.dir\main.cpp.i
 
 CMakeFiles/TextIO.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TextIO.dir/main.cpp.s"
-	E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\AlgorithmAndDataStructure\algorithm\TextIO\main.cpp -o CMakeFiles\TextIO.dir\main.cpp.s
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\AlgorithmAndDataStructure\algorithm\TextIO\main.cpp -o CMakeFiles\TextIO.dir\main.cpp.s
 
 CMakeFiles/TextIO.dir/Student.cpp.obj: CMakeFiles/TextIO.dir/flags.make
 CMakeFiles/TextIO.dir/Student.cpp.obj: ../Student.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\AlgorithmAndDataStructure\algorithm\TextIO\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TextIO.dir/Student.cpp.obj"
-	E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TextIO.dir\Student.cpp.obj -c E:\AlgorithmAndDataStructure\algorithm\TextIO\Student.cpp
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TextIO.dir\Student.cpp.obj -c E:\AlgorithmAndDataStructure\algorithm\TextIO\Student.cpp
 
 CMakeFiles/TextIO.dir/Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TextIO.dir/Student.cpp.i"
-	E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\AlgorithmAndDataStructure\algorithm\TextIO\Student.cpp > CMakeFiles\TextIO.dir\Student.cpp.i
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\AlgorithmAndDataStructure\algorithm\TextIO\Student.cpp > CMakeFiles\TextIO.dir\Student.cpp.i
 
 CMakeFiles/TextIO.dir/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TextIO.dir/Student.cpp.s"
-	E:\Qt\Qt5.14.0\Tools\mingw730_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\AlgorithmAndDataStructure\algorithm\TextIO\Student.cpp -o CMakeFiles\TextIO.dir\Student.cpp.s
+	"D:\Program Files(x86)\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\AlgorithmAndDataStructure\algorithm\TextIO\Student.cpp -o CMakeFiles\TextIO.dir\Student.cpp.s
 
 # Object files for target TextIO
 TextIO_OBJECTS = \

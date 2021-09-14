@@ -3,13 +3,17 @@
 #include "Permutations.h"
 #include "Subsets.h"
 #include "Combinations.h"
+#include "Number-of-Islands.h"
+#include "N-Queens.h"
 int main() {
     std::cout << "Hello, World!" << std::endl;
 //    LetterCombinationsOfAPhoneNumberTest();
 //    permutationsTest();
 //    testSet();
-    testCombinations();
+//    testCombinations();
 //    testSubsets();
+//    testNumberOfIsland();
+//    testNQueens();
 
 
     return 0;

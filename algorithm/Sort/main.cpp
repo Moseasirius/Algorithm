@@ -2,6 +2,7 @@
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
+//    testStudent();
 //    testBubbleSort();
 //    testSelectionSort();
 //    testInsertionSort();
@@ -9,7 +10,7 @@ int main() {
 //    testQuickSort3ways();
 //    testQuickSort();
 //    testHeapSort2();
-//    test();
+    test();
 
 
 

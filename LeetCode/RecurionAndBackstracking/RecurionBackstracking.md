@@ -118,3 +118,112 @@ class Solution {
 不过，其实，对于这种概念，通常也不用较真。比如在面试时，你说：我使用回溯法，加上了记忆化的策略，具体是如何balabalabla... 大家也能听懂你的意思，不会有人较真，问你，到底什么是回溯？你这样做真的叫回溯吗？等等等等。我还没听说过有人因为不能明确阐释“回溯”的概念而被拒。懂不懂回溯，随便拿一个“经典”回溯问题问一下便知：）
 
 所以，如果要想深入理解这个概念，如果基于这个课程的话，我的建议是：把七八九三章看完，将其中的例题和练习题都自己亲自实践一遍，然后再回过头用自己的感悟总结一下：什么是回溯，什么动态规划，什么是递归实现。到那时，相信你会有更多的体会：）
+
+# N-Queens
+
+解决N皇后问题
+
+先尝试在第一行怎么摆放，在尝试第二行怎么摆放……
+
+考虑冲突的地方，相当于回溯的剪枝
+
+快速判断不合法的情况
+
+竖向：col[i] 表示第i列被占用
+
+对角线1：dia1[i] 表示第i对角线1被占用
+
+对角线2：dia2[i] 表示第i对角线2被占用
+
+如何使用一个数组表示两个方向的对角线
+
+|      |      |      |      |
+| ---- | ---- | ---- | ---- |
+| 0 0  | 0 1  | 0 2  | 0 3  |
+| 1 0  | 1 1  | 1 2  | 1 3  |
+| 2 0  | 2 1  | 2 2  | 2 3  |
+| 3 0  | 3 1  | 3 2  | 3 3  |
+
+一三象限  左下到右上的对角线1 
+
+2*n-1 个 
+
+同一对角线上i+j的值相等  i+j
+
+二四象限  左上到右下的对角线2
+
+2*n-1个
+
+同一对角线上i-j的值相等 i-j, 对于数组我们希望数组下标从零开始  i-j+n-1
+
+```c++
+namespace Queens {
+    class Solution {
+    private:
+        vector<vector<string>> res;
+        vector<bool> col;
+        vector<bool> dia1;
+        vector<bool> dia2;
+
+        void putQueen(int n, int index, vector<int> &row) {
+            //递归到底 得到一个解
+            if (index == n) {
+                res.push_back(generateBoard(n, row));
+                return;
+            }
+            for (int i = 0; i < n; i++) {
+                // 尝试将第index行的皇后摆放在第i列
+                if (!col[i] && !dia1[index + i] && !dia2[index - i + n - 1]) {
+                    row.push_back(i);
+                    col[i] = true;
+                    dia1[index + i] = true;
+                    dia2[index - i + n - 1] = true;
+                    putQueen(n, index + 1, row);
+                    col[i] = false;
+                    dia1[index + i] = false;
+                    dia2[index - i + n - 1] = false;
+                    row.pop_back();
+
+                }
+            }
+            return;
+        }
+
+        vector<string> generateBoard(int n, vector<int> &row) {
+            assert(row.size() == n);
+            vector<string> board(n, string(n, '.'));
+            for (int i = 0; i < n; i++) {
+                board[i][row[i]] = 'Q';
+            }
+            return board;
+        }
+
+    public:
+        vector<vector<string>> solveNQueens(int n) {
+            res.clear();
+            col.clear();
+
+            col = vector<bool>(n, false);
+            dia1 = vector<bool>(2 * n + 1, false);
+            dia2 = vector<bool>(2 * n + 1, false);
+
+            vector<int> row;
+            putQueen(n, 0, row);
+            return res;
+        }
+    };
+}
+
+void testNQueens() {
+    int n = 4;
+    vector<vector<string>> res = Queens::Solution().solveNQueens(n);
+    cout << res.size() << " Queens " << endl;
+    for (int i = 0; i < res.size(); i++) {
+        for (int j = 0; j < n; j++)
+            cout << res[i][j] << endl;
+        cout << endl;
+    }
+}
+
+```
+

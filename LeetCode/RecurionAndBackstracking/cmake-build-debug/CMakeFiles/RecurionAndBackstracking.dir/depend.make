@@ -3,6 +3,8 @@
 
 CMakeFiles/RecurionAndBackstracking.dir/main.cpp.obj: ../Combinations.h
 CMakeFiles/RecurionAndBackstracking.dir/main.cpp.obj: ../Letter-Combinations-of-a-Phone-Number.h
+CMakeFiles/RecurionAndBackstracking.dir/main.cpp.obj: ../N-Queens.h
+CMakeFiles/RecurionAndBackstracking.dir/main.cpp.obj: ../Number-of-Islands.h
 CMakeFiles/RecurionAndBackstracking.dir/main.cpp.obj: ../Permutations.h
 CMakeFiles/RecurionAndBackstracking.dir/main.cpp.obj: ../Subsets.h
 CMakeFiles/RecurionAndBackstracking.dir/main.cpp.obj: ../main.cpp

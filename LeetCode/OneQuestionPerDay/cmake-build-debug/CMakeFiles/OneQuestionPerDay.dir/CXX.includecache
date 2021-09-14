@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/MaximalSquare.h
+iostream
+-
+vector
+-
+
 E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/SmallestKLCCI.h
 vector
 -
@@ -23,6 +29,8 @@ SmallestKLCCI.h
 E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/SmallestKLCCI.h
 test.h
 E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/test.h
+MaximalSquare.h
+E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/MaximalSquare.h
 
 E:/AlgorithmAndDataStructure/LeetCode/OneQuestionPerDay/test.h
 iostream

@@ -20,6 +20,20 @@ vector
 cassert
 -
 
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/N-Queens.h
+iostream
+-
+vector
+-
+cassert
+-
+
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Number-of-Islands.h
+iostream
+-
+vector
+-
+
 E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Permutations.h
 iostream
 -
@@ -45,4 +59,8 @@ Subsets.h
 E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Subsets.h
 Combinations.h
 E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Combinations.h
+Number-of-Islands.h
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/Number-of-Islands.h
+N-Queens.h
+E:/AlgorithmAndDataStructure/LeetCode/RecurionAndBackstracking/N-Queens.h
 
