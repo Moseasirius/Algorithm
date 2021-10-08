@@ -7,7 +7,8 @@
 
 #endif //SORT_QUICKSORT_H
 
-//对array[l,r]进行partition操作
+//对array[l,r]部分进行partition操作
+//返回p 使得arr[l,p-1]<arr[p];arr[p+1,r]>arr[p]
 template<typename T>
 int __partition(T array[], int l, int r) {
     swap(array[l], array[rand() % (r - l + 1) + l]);//[l,r]的任意一个索引
@@ -40,7 +41,13 @@ void QuickSort(T array[], int n) {
     srand(time(NULL));
     __quickSort(array, 0, n - 1);
 }
+//
+//如果标定点每次都选数组的首位,在对一个近似有序的数组进行快排的时候，其时间复杂度会退化为O(n^2)级别。
+//解决办法 随机选取一个元素。
 
+
+//双路快速排序，解决重复值较多的数组的情况,把=v的元素分散到两侧，防止有大量重复元素时退化成O(n^2)
+//重复键值的序列，快排退化为O(n2)。之前写的代码。在有大量重复value的情况下，partition的部分，会变得极端的不平衡。
 //QuickSort2
 //对array[l,r]进行partition操作
 template<typename T>
