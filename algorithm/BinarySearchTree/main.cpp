@@ -1,10 +1,11 @@
 #include <iostream>
 #include "test.h"
+#include "AVLTree.h"
 
 using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Hello, World!Ä¥Õñº£" << std::endl;
 //    testBinarySearch();
 //    testFloorAndCeil();
 //    testBSTvsSequenceST();
@@ -12,7 +13,8 @@ int main() {
 //    testOrderAndLevel();
 //    testRemoveMinMax();
 //    testLimitationsBST();
-    testPredecessorSuccessor();
+//    testPredecessorSuccessor();
+    AVLTreeTest();
 
 
     return 0;

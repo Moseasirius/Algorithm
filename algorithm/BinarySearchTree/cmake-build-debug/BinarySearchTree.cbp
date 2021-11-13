@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/AVLTree.cpp">
+			<Option target="BinarySearchTree"/>
+		</Unit>
+		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/AVLTree.h">
+			<Option target="BinarySearchTree"/>
+		</Unit>
 		<Unit filename="E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BST.h">
 			<Option target="BinarySearchTree"/>
 		</Unit>

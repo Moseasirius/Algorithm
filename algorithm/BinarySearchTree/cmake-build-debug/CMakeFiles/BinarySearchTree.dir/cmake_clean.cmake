@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "BinarySearchTree.exe"
   "BinarySearchTree.exe.manifest"
   "BinarySearchTree.pdb"
+  "CMakeFiles/BinarySearchTree.dir/AVLTree.cpp.obj"
   "CMakeFiles/BinarySearchTree.dir/main.cpp.obj"
   "libBinarySearchTree.dll.a"
 )

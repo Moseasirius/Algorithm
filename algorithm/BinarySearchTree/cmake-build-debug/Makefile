@@ -141,6 +141,33 @@ BinarySearchTree/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make CMakeFiles/BinarySearchTree.dir/build
 .PHONY : BinarySearchTree/fast
 
+AVLTree.obj: AVLTree.cpp.obj
+
+.PHONY : AVLTree.obj
+
+# target to build an object file
+AVLTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make CMakeFiles/BinarySearchTree.dir/AVLTree.cpp.obj
+.PHONY : AVLTree.cpp.obj
+
+AVLTree.i: AVLTree.cpp.i
+
+.PHONY : AVLTree.i
+
+# target to preprocess a source file
+AVLTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make CMakeFiles/BinarySearchTree.dir/AVLTree.cpp.i
+.PHONY : AVLTree.cpp.i
+
+AVLTree.s: AVLTree.cpp.s
+
+.PHONY : AVLTree.s
+
+# target to generate assembly for a file
+AVLTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make CMakeFiles/BinarySearchTree.dir/AVLTree.cpp.s
+.PHONY : AVLTree.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -177,6 +204,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BinarySearchTree
+	@echo ... AVLTree.obj
+	@echo ... AVLTree.i
+	@echo ... AVLTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

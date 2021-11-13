@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/AVLTree.h
+iomanip
+-
+iostream
+-
+
 E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/BST.h
 queue
 -
@@ -33,6 +39,8 @@ iostream
 -
 test.h
 E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/test.h
+AVLTree.h
+E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/AVLTree.h
 
 E:/AlgorithmAndDataStructure/algorithm/BinarySearchTree/test.h
 iostream
