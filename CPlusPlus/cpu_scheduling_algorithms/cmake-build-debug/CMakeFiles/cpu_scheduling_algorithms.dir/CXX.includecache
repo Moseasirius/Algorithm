@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/AlgorithmAndDataStructure/CPlusPlus/cpu_scheduling_algorithms/main.cpp
+algorithm
+-
+cassert
+-
+cstdlib
+-
+ctime
+-
+iomanip
+-
+iostream
+-
+queue
+-
+unordered_set
+-
+vector
+-
+
